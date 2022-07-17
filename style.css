@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://i.postimg.cc/9MyvrRMR/istockphoto-1301592082-170667a.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+canvas{
+    margin-left: 35%;
+    background-color: white;
+    animation: shadow 2s alternate-reverse infinite;
+    border-radius: 10px;
+    transition: 1s;
+}
+@keyframes shadow{
+    0%{box-shadow: 5px 5px 40px yellow;}
+    100%{box-shadow: 5px 5px 40px white;}
+}
+h1{
+    font-size: 25px !important;
+}
+.filters{
+    margin-top: 20px;
+    height: 60px;
+    width: 60%;
+    margin-bottom: 20px;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 20px;
+}
+.filters button{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(235, 231, 19,0);
+    box-shadow: 0px 0px 10px white;
+    border: none;
+    transition: 0.2s;
+    outline: none;
+    border: none;
+    border-radius: 12%;
+}
+.filters button:hover{
+    height: 42px;
+    width: 72px;
+    background-color: grey;
+    border: none;
+}
+.filters button:focus{
+    height: 42px;
+    width: 72px;
+    background-color: grey;
+    border: none;
+}
+.mustache{
+    background-size: cover;
+    background-image: url("https://i.postimg.cc/yNC9vCQj/mustache-student-math-favorite-for-friday-the-the-1.png");
+}
+.lipstick{
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/SsyKrzP8/214-2148053-huda-beauty-liquid-matte-lipstick-material-girl-lipstick-removebg-preview.png");
+}
+.clown{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/vT7dwSLP/Clown-Nose.png");
+}
+.hat{
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/zfwMnx4z/538-5387736-kid-hat-png-transparent-png-removebg-preview.png");
+}
+.cigratte{
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/8PqXrdFy/download-removebg-preview.png");
+}
+.glass{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/7PMShPgs/thug-life-cool-glasses-png-transparent-0.png");
+}
+.y-glass{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/tgcmh7z5/download-removebg-preview-1-removebg-preview.png");
+}
+.r-glass{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/kGsQvpmm/56a2735a20428de403a2c5f9932b50cb-removebg-preview-removebg-preview.png");
+}
+.iron{
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/BtWkTRZv/580b57fbd9996e24bc43c051.png");
+}
+.hacker{
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i.postimg.cc/2Snb7WGj/kisscc0-guy-fawkes-mask-security-hacker-anonymous-anonymous-mask-5b4e56aaa8b6b1-44521528153186065069.png");
+}
